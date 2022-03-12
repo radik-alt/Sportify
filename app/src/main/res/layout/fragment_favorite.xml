@@ -1,14 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragment.FavoriteFragment">
+    android:background="@color/secondPrimary"
+    tools:context=".Fragment.FavoriteManager.FavoriteFragment">
 
-    <ImageButton
-        android:id="@+id/favorit"
-        android:src="@drawable/pngegg"
+    <GridLayout
+        android:id="@+id/topBarFavorite"
+        android:padding="15sp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:rowCount="1"
+        android:columnCount="2">
 
-</FrameLayout>
+        <LinearLayout
+            android:layout_gravity="left"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:contentDescription="usersImage"
+                android:backgroundTint="@color/secondPrimary"
+                android:src="@drawable/ic_baseline_account_circle_24"
+                android:layout_width="@dimen/sizeIconFavoriteIcon"
+                android:layout_height="@dimen/sizeIconFavoriteIcon"/>
+
+            <TextView
+                android:layout_marginStart="10sp"
+                android:layout_gravity="center_vertical"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="Моя медиатека"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="right"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/searchFavorite"
+                android:backgroundTint="@color/secondPrimary"
+                android:src="@drawable/ic_search"
+                android:layout_width="@dimen/sizeIconFavoriteIcon"
+                android:layout_height="@dimen/sizeIconFavoriteIcon"/>
+
+            <ImageButton
+                android:id="@+id/addFavorite"
+                android:backgroundTint="@color/secondPrimary"
+                android:src="@drawable/ic_search"
+                android:layout_width="@dimen/sizeIconFavoriteIcon"
+                android:layout_height="@dimen/sizeIconFavoriteIcon"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingTop="10sp"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content">
+
+            <Button
+                android:id="@+id/buttonPlayListFavorite"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:paddingLeft="15sp"
+                android:paddingRight="15sp"
+                android:text="Плейлист"
+                android:background="@drawable/shape_button_top_favorite"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="35sp"/>
+            <Button
+                android:layout_marginStart="15sp"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:paddingLeft="15sp"
+                android:paddingRight="15sp"
+                style="?android:attr/buttonBarButtonStyle"
+                android:text="Исполнители"
+                android:background="@drawable/shape_button_top_favorite"
+                android:layout_width="wrap_content"
+                android:layout_height="35sp"/>
+
+        </LinearLayout>
+
+    </GridLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:padding="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topBarFavorite">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+</RelativeLayout>
