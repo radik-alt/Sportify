@@ -5,15 +5,18 @@
       <map>
         <entry key="..\:/Users/Radik/AndroidStudioProjects/Pet/app/src/main/res/drawable/ic_home.xml" value="0.1075" />
         <entry key="..\:/Users/Radik/AndroidStudioProjects/Pet/app/src/main/res/drawable/ic_spotify_icon_logo_wine.xml" value="0.105" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Pet/app/src/main/res/drawable/input_search.xml" value="0.1355" />
         <entry key="..\:/Users/Radik/AndroidStudioProjects/Pet/app/src/main/res/drawable/item_selector.xml" value="0.1075" />
         <entry key="..\:/Users/Radik/AndroidStudioProjects/Pet/app/src/main/res/drawable/round_corners.xml" value="0.14" />
         <entry key="..\:/Users/Radik/AndroidStudioProjects/Pet/app/src/main/res/drawable/shape_button_top_favorite.xml" value="0.1355" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Pet/app/src/main/res/layout/activity_log_in.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Radik/AndroidStudioProjects/Pet/app/src/main/res/layout/activity_main.xml" value="0.18" />
         <entry key="..\:/Users/Radik/AndroidStudioProjects/Pet/app/src/main/res/layout/activity_player_bottom.xml" value="0.1" />
         <entry key="..\:/Users/Radik/AndroidStudioProjects/Pet/app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
         <entry key="..\:/Users/Radik/AndroidStudioProjects/Pet/app/src/main/res/layout/bottomsheet.xml" value="0.2" />
         <entry key="..\:/Users/Radik/AndroidStudioProjects/Pet/app/src/main/res/layout/fragment_favorite.xml" value="0.19806338028169015" />
         <entry key="..\:/Users/Radik/AndroidStudioProjects/Pet/app/src/main/res/layout/fragment_player.xml" value="0.2" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Pet/app/src/main/res/layout/fragment_search.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Radik/AndroidStudioProjects/Pet/app/src/main/res/layout/recycle_favorite_list.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Radik/AndroidStudioProjects/Pet/app/src/main/res/menu/item_bottom.xml" value="0.20416666666666666" />
       </map>
